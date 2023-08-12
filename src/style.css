@@ -6,7 +6,16 @@ header {
     url("../images/italy-header.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px;
+    padding: 160px;
+    text-align: center;
+}
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)),
+    url("../images/italy-footer.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    color: #dbdbdb;
 }
 h1, h2, h3 {
     color: #dbdbdb;
@@ -14,7 +23,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 .textEffect {
@@ -28,4 +37,7 @@ opacity: 1;
     50% {
         opacity: 0;
     }
+}
+.information {
+list-style: none;
 }
