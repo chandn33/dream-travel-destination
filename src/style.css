@@ -138,6 +138,13 @@ section.secondary {
     background: #836af1;
     color: #ffff; 
 }
+.open-source {
+    font-size: 14px;
+    color: #ffff;
+    font-family: courier;
+    padding: 8px;
+    font-weight: bold;
+}
 @media (max-width: 980px) {
     header {
         padding: 80px;
@@ -169,5 +176,8 @@ section.secondary {
     }
     .embed {
     aspect-ratio: 16/9;
+}
+.open-source {
+    font-size: 12px;
 }
     }
