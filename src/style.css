@@ -79,7 +79,8 @@ section.secondary {
     text-align: center;
 }
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
+    display: block;
 }
 .grid {
     display: grid;
@@ -93,6 +94,20 @@ section.secondary {
 }
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
+}
+.embed {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.card-header {
+    padding: 0;
+}
+.card-header.grid {
+    grid-gap: 0;
+}
+.card img {
+    height: 145px;
+    width: 145px;
 }
 .card {
     background: #ffff;
